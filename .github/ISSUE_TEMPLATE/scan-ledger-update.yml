@@ -1,0 +1,26 @@
+name: Scan ledger update
+description: Request a correction to the public scanned-repositories list.
+title: "[Ledger]: "
+labels:
+  - ledger
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is for public ledger corrections only.
+        Do not include findings, exploit details, or private research.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository name
+      description: Use owner/name format.
+      placeholder: owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Requested correction
+      description: What should change in the public scan ledger?
+    validations:
+      required: true
