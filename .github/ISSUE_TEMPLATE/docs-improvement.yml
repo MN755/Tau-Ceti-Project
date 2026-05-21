@@ -1,0 +1,33 @@
+name: Documentation improvement
+description: Suggest a change to public-facing docs in Tau Ceti Project.
+title: "[Docs]: "
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for public documentation improvements only.
+        Do not post third-party vulnerability details here.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What should change?
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Affected page or file
+      description: Which public doc is wrong, unclear, or incomplete?
+      placeholder: README.md, docs/mission.md, docs/public-reporting-policy.md
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Keep it public-safe and documentation-focused.
+    validations:
+      required: true
