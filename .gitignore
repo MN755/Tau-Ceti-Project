@@ -4,12 +4,15 @@ research/
 sandboxes/
 scripts/
 state/
+security_invariant_checklists/
+private_finding_index/
 
 # Internal workflow docs not meant for the public repo
 docs/github-review-framework.md
 docs/github-publishing-guide.md
 docs/security-toolkit.md
 docs/tau-ceti-charter.md
+docs/starting-targets-200.md
 
 # Local noise
 __pycache__/
