@@ -1,52 +1,68 @@
 # Tau Ceti Project
 
-Tau Ceti is a public-facing documentation and update hub for a security research effort focused on widely used software.
+> Cybersecurity, for everyone.
 
-This repository is intentionally limited in scope:
+Tau Ceti is the public-facing documentation and signal layer for a private-first security research effort focused on the software the modern internet actually runs on.
 
-- public updates
+This project is not built around issue volume, novelty chasing, or public vulnerability theater. It is built around careful attention to important open source systems with real operational reach, then a clean public record of what the project is doing and why.
+
+## Why Tau Ceti Exists
+
+Too much security work is optimized for noise:
+
+- low-value bug churn
+- trend-following instead of dependency gravity
+- public reporting patterns that reward spectacle over judgment
+
+Tau Ceti exists to push in the opposite direction: quieter, sharper, and more useful.
+
+## What Makes This Repo Different
+
+- **High-signal public surface**: this repository is for mission, process, updates, and public-facing documentation.
+- **Clean disclosure boundary**: third-party vulnerability details do not get published here.
+- **Public ledger, private discipline**: scanned repository names may appear here; findings do not.
+- **Real targets**: the project is biased toward widely used frameworks, runtimes, infrastructure tooling, developer tooling, data systems, auth layers, and content-processing software.
+
+## What This Repository Is For
+
 - project documentation
-- high-level methodology
-- the names of repositories that have been scanned
+- public updates
+- a repo-name-only scan ledger
+- contribution rules for public-facing changes
+- a clear statement of the project's public boundary
 
-This repository does **not** publish vulnerability details, exploit paths, private report contents, or third-party security issues.
+## What This Repository Is Not For
 
-## What You Will Find Here
-
-- project mission and scope
-- public reporting policy
-- a public scan ledger that lists repository names only
-- project updates and release-style notes
-- contribution and conduct rules for documentation changes
-
-## What You Will Not Find Here
-
-- vulnerability writeups
-- exploit code
-- private research notes
-- unpublished findings
-- sensitive reproductions
+- vulnerability disclosure
+- exploit notes
+- private reports
+- sensitive repro steps
 - target-specific security details
+- public writeups of third-party security flaws
 
-## Public Docs
+## Start Here
 
 - [Project Mission](docs/mission.md)
 - [Public Reporting Policy](docs/public-reporting-policy.md)
 - [Scanned Repositories](docs/scanned-repos.md)
 - [Project Updates](docs/updates.md)
 
-## Contributing
+## Public Rules Of The Road
 
-This repository accepts contributions that improve public docs, wording, structure, and the public scan ledger.
+If you want to contribute to this repository, keep it public-safe.
 
-Before opening a pull request, read:
+Read these first:
 
 - [CONTRIBUTING.md](CONTRIBUTING.md)
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - [SECURITY.md](SECURITY.md)
 
+This repository accepts improvements to docs, structure, wording, and the public scan ledger.
+
+If you are holding a third-party vulnerability report, this is the wrong place to post it.
+
 ## Security Boundary
 
-Do not use this repository to disclose third-party vulnerabilities.
+Tau Ceti may publicly say **what** was scanned. It does not publicly narrate **how** a target breaks, **where** a control failed, or **how** a bug can be exploited.
 
-If your content includes exploit details, sensitive findings, private report contents, or unredacted security evidence, it does not belong here.
+That separation is deliberate.
